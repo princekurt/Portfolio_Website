@@ -7,7 +7,7 @@
 <title>Kurt Anderson</title>
 
 <!-- Bootstrap -->
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Style Sheets -->
 <link href="css/styles.css" rel="stylesheet">
@@ -44,22 +44,28 @@
 </nav>
 
 <!-- Main Page -->
-<div id ="wrapper">
-    <div id ="title" class="container-fluid">
-        <div class="col-md-10 col-md-offset-1"> <span id = "logo"><img src="./img/logo.png" class = "img-responsive" alt = "Logo Image"></span>
-            <h1 class="text-right title">Kurt Anderson</h1>
-            <h2 class="text-right">Software Engineer/ Web Developer</h2>
+<main id ="wrapper">
+    <section id ="title" class="container-fluid">
+        <div class = "row">
+            <div class="col-md-10 col-md-offset-1"> <span id = "logo"><img src="./img/logo.png" class = "img-responsive" alt = "Logo Image"></span>
+                <h1 class="text-right title">Kurt Anderson</h1>
+                <h2 class="text-right">Software Engineer/ Web Developer</h2>
+            </div>
+            <hr>
+            <div class="col-md-10 col-md-offset-1">
+                <hr class ="lineBreak">
+            </div>
         </div>
-        <hr>
-        <div class="col-md-10 col-md-offset-1">
-            <hr id ="lineBreak">
-        </div>
-    </div>
-    <div class="container">
-        <div class="col-md-10 col-md-offset-1"> <img src = "./img/main.jpg" alt ="Main Cover Image" height = "200"  class = "img-thumbnail"> </div>
-        <hr>
-    </div>
-    <div class = "container offset-md-1">
+        <div class="container">
+			<div class = "row">
+				<div class="col-md-10 col-md-offset-1"> <img src = "./img/main.jpg" alt ="Main Cover Image" height = "200"  class = "img-thumbnail"> </div>
+				<hr>
+			</div>
+    	</div>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section class = "container offset-md-1">
         <div class="row offset-md-1">
             <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 offset-md-1">
                 <h1 class="gallery-title">Portolio</h1>
@@ -74,14 +80,14 @@
                 <p class = "portolio_text">Calculon Calculator</p>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+</main>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="../js/jquery-1.11.3.min.js"></script> 
 <script src="../js/interactive.js"></script> 
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="../js/bootstrap.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
