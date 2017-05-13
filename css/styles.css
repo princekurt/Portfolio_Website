@@ -17,7 +17,7 @@ body {
 }
 
 #header {
-	background-color: #1C272A;
+	background-color: #1c272a;
 	display: block;
 	height: 52px;
 	width: 100%;
@@ -47,11 +47,11 @@ body {
 
 /* ------------------------*/ /* ---------->>> Navigation bar <<<-----------*/ /* ------------------------*/
 #mainNav {
-	background-color: #1C272A;
+	background-color: #1c272a;
 }
 
 #nav-menu {
-	background-color: #1C272A;
+	background-color: #1v272a;
 	position: relative; /* <-- Added */
 	z-index: 11;  /*<-- Added */
 }
@@ -62,18 +62,18 @@ body {
 }
 
 #nav-menu li.active a, #nav-menu li:hover a {
-	color: #FFF700;
-	background: #1C272A;
+	color: #fff700;
+	background: #1c272a;
 }
 
 #nav-menu.nav > li > a:hover, #nav-menu.nav > li > a:focus {
-	background: #1C272A;
+	background: #1c272a;
 }
 
 #navigation li a {
 	padding-left: 25px;
 	font-size: medium;
-	border-bottom: 1px solid #D5D5CD;
+	border-bottom: 1px solid #d5d5cd;
 	border-left: 1px solid #000;
 }
 /* ------------------------*/ /* ---------->>> Main Page <<<-----------*/ /* ------------------------*/
@@ -93,7 +93,7 @@ body {
 /* ------------------------*/ /* ---------->>> Portfolio Gallery <<<-----------*/ /* ------------------------*/
 .gallery-title {
 	font-size: 36px;
-	color: #42B32F;
+	color: #42b32f;
 	text-align: center;
 	font-weight: 500;
 	margin-bottom: 70px;
